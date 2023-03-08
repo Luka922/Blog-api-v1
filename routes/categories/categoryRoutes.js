@@ -5,7 +5,7 @@ const {
   deleteCategoryCtrl,
   updateCategoryCtrl,
   fetchCategoriesCtrl,
-} = require("../../controllers/categories/categoriesCtrl");
+} = require("../../controllers/categories/categoryCtrl");
 const isLogin = require("../../middlewares/isLogin");
 
 const categoryRouter = express.Router();
